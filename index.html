@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folio</title>
+
+    <!--Les balises de référencement-->
+    <link rel="icon" type="image/x-icon" href="./images/logo.ico">
+    <meta name="description" content="This is a sample HTML document.">
+    <meta name="keywords" content="HTML, sample, document">
+    <meta name="author" content="Your Name">
+    <meta property="og:title" content="Document">
+    <meta property="og:description" content="This is a sample HTML document.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/">
+    <meta property="og:image" content="https://yourwebsite.com/og-image.jpg">
+
+    <!--Les balises de style-->
+    <script src="https://kit.fontawesome.com/5e60de50df.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!--La Navbar-->
+   <nav class="navbar navbar-expand-lg shadow-sm fixed-top py-3 bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="./images/logo.svg" alt="" class="img-fluid w-75">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link home-active bg-light fw-bold" aria-current="page" href="#">Demos <i class="fa-solid fa-chevron-down"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link other-link" href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link other-link" href="#">Doc <i class="fa-solid fa-chevron-down"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link other-link" href="#">Contact us</a>
+        </li>
+      </ul>
+      <div class="call d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-circle-half-stroke ion-icon text-dark"></i>
+        <a href="" class="btn-order"><i class="fa-solid fa-phone me-2"></i>Book a call</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--La section hero-->
+<section class="hero position-relative">
+    <div class="position-absolute bg-dark top-0 bottom-0 start-0 end-0 opacity-50"></div>
+    <div class="container position-relative">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6">
+                <h1 class="text-white display-2  fw-bold">Empowering Your <span class="span">Financial</span> Future</h1>
+                <p class="text-white h5 fw-bold py-5">Our team is dedicated to helping you achieve your financial goals with confidence and clarity.</p>
+                <div class="hero-btn">
+                    <a href="" class="btn-get text-white">Get started today<i class="fa-solid fa-arrow-right ms-2 ion-get"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6"></div>
+        </div>
+    </div>
+</section>
+
+<!--La section form-->
+<section class=" py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mt-5">
+                <h1 class="mb-5 fw-bold h2">Achieving financial excellence together</h1>
+                <div class="d-flex">
+                    <div class="d-flex flex-column">
+                    <h4 class="h4 fw-bold"><i class="fa-solid fa-bolt  text-success"></i> Our mission</h4>
+                    <p>We deliver exceptional financial consulting services tailored to your unique needs.</p>
+                    </div>
+
+                    <div class="d-flex flex-column ">
+                    <h4 class="h4 fw-bold"><i class="fa-solid fa-bullseye text-danger"></i> Our goal</h4>
+                    <p>We aim to help you grow and protect your wealth, ensuring a secure.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 order-first order-lg-last">
+                <form action="" class="form ">
+                    <div class="container py-5">
+                    <div class="bg-dark dd-container rounded-5 shadow">
+                    <h2 class="text-center mb-4 text-white fw-bold">Book a consultant</h2>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                        <label for="">First name</label>
+                        <input type="text" class="form-control text-white space-input" required>
+                        </div>
+                        <div class="col-md-6 mt-3 mt-md-0">
+                        <label for="">Last name</label>
+                        <input type="text" class="form-control text-white space-input" required>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                        <label for="">Email address</label>
+                        <input type="email" class="form-control text-white space-input" required>
+                        </div>
+                        <div class="col-md-6 mt-3 mt-md-0">
+                        <label for="">Mobile number</label>
+                        <input type="tel" class="form-control text-white space-input" required>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="">Subject</label>
+                        <input type="text" class="form-control text-white space-input" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="">Message</label>
+                        <textarea class="form-control text-white space-input" rows="4" required></textarea>
+                    </div>
+
+                    <div class="bouton">
+                        <button type="submit" class="btn-send">Send message</button>
+                    </div>
+                </div>
+                </div>         
+            </form>
+                </div>
+                </div>
+        </div>
+</section>
+
+<!--La section Solution financiere-->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-3">
+                <img src="./images/15.jpg" alt="" class="img-fluid images">
+            </div>
+            <div class="col-lg-6 col-md-12 mb-3">
+                <h1 class="mb-5 fw-bold display-5">Comprehensive financial solutions for you</h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="mb-4 text-soncdary lead fw-bold opacity-50 h6">Financial advisory </p>
+                        <p class="mb-4 text-soncdary lead fw-bold opacity-50 h6">Consulting</p>
+                        <p class="mb-4 text-soncdary lead fw-bold opacity-50 h6">Management</p>
+                        <p class="mb-4 text-soncdary lead fw-bold opacity-50 h6">Data analysis </p>
+                        <p class="mb-4 text-soncdary lead fw-bold opacity-50 h6">Debut management </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="mb-4 text-soncdary lead fw-bold opacity-50 h5">Legal & Tax </p>
+                        <p class="mb-4 text-soncdary lead fw-bold opacity-50 h5">Business consulting </p>
+                        <p class="mb-4 text-soncdary lead fw-bold opacity-50 h5">Risk advisory </p>
+                    </div>
+                </div>
+               <div class="alert alert-light rounded-4 alerte" role="alert">
+               <span class="text-dark ">&#129309; Looking for business opportunity? <a href="#" class="alert-link alerte-link">Send message</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--La section Principles-->
+<section class="py-5 ">
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">Principles for you finance</h1>
+        </div>
+
+        <div class="row g-4 g-lg-5 py-5">
+            <div class="col-lg-3 col-md-12">
+            <div class="d-flex flex-column">
+             <div class="container rounded-4 shadow-sm py-5">
+                <i class="bi bi-rocket-takeoff-fill ion-icons1 text-success ms-4"></i>
+                <h5 class="mt-3 ms-4 text-dark fw-bold h4">Integrity</h5>
+                <p class="mb-0 ms-4">We uphold the highest standards of integrity in all our actions.</p>
+             </div>
+             </div>
+             </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="d-flex flex-column">
+                <div class="container rounded-4 py-5 shadow-sm">
+                <i class="bi bi-person-lines-fill ion-icons2 ms-4"></i>
+                <h5 class="mt-3 ms-4 text-dark fw-bold h4">Client approach</h5>
+                <p class="mb-0 ms-4">Your needs and goals are at the heart of everything we do.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="d-flex flex-column">
+                <div class="container rounded-4 py-5 shadow-sm">
+                <i class="bi bi-award text-info ms-4 ion-icons3"></i>
+                <h5 class="mt-3 ms-4 text-dark fw-bold h4">Excellence</h5>
+                <p class="mb-0 ms-4">Our experts are dedicated to delivering the highest quality services.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="d-flex flex-column">
+                <div class="container rounded-4 py-5 shadow-sm">
+                <i class="bi bi-fire ion-icons4 ms-4"></i>
+                <h5 class="mt-3 ms-4 text-dark fw-bold h4">Innovation</h5>
+                <p class="mb-0 ms-4">Embracing innovation to lead in the dynamic financial landscape.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--la section Industrie-->
+<section class="py-5 industrie">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-12">
+                <h1>Industries we serve</h1>
+                <p>Providing expert financial services across diverse industries</p>
+                <a href="" class="btn btn-primary btn-lg">Contact us now</a>
+            </div>
+            <div class="col-lg-3">
+                <div class="card shadow-lg border-0  "style="width: 17rem;">
+                <img src="./images/111.jpg" class="img-fluid p-2 rounded-4" alt="...">
+                <div class="card-body">
+                    <h5 class="fw-bold">Healthcare industry</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="text-primary fw-bold text-decoration-none">Read more <i class="fa-solid fa-arrow-right ms-2 ion-get"></i></a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card shadow-lg border-0  d-none d-lg-block" style="width: 17rem;">
+                <img src="./images/444.jpg" class="img-fluid p-2 rounded-4" alt="...">
+                <div class="card-body">
+                    <h5 class="fw-bold">Rail sector</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="text-primary fw-bold text-decoration-none">Read more <i class="fa-solid fa-arrow-right ms-2 ion-get"></i></a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card shadow-lg border-0 object-fit-cover d-none d-lg-block" style="width: 18rem;">
+                <img src="./images/222.jpg" class="img-fluid p-2 rounded-4" alt="...">
+                <div class="card-body">
+                    <h5 class="fw-bold">Manufacturing Industry</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="text-primary fw-bold text-decoration-none">Read more <i class="fa-solid fa-arrow-right ms-2 ion-get"></i></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--La section Fancibox-->
+<section class="">
+    <div class="container-fluid m-0 p-0">
+        <div class="video d-flex justify-content-center align-items-center">
+            <a href="https://youtu.be/tXHviS-4ygo" class="rond text-decoration-none" data-fancybox="gallery" data-caption="Caption #1">
+                <i class="bi bi-play-circle-fill fa-3x text-dark"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!--Prix des services-->
+<section class="py-5">
+    <div class="container called">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="text-white h1 fw-bold ms-4">Need finance <br> guidance?</h2>
+                <p class="text-secondary lead ms-4">We've always worked very hard to give our customers the <br> best experience.</p>
+            </div>
+            <div class="col-lg-3">
+                <h2 class="py-4 text-white fw-bold title-price">$9.99 <span class="hour text-secondary">/per hour</span></h2>
+                 <a href="" class="bouton-call"><i class="bi bi-telephone me-2"></i></i>Book a call!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--la section des experts-->
+<section class="py-5">
+    <div class="container">
+        <div class="row mb-3">
+            <h2 class="text-center text-dark display-6 fw-bold mb-4">Our financial experts</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-12">
+                <div class="d-flex flex-column">
+                    <img src="./images/010.jpg" alt="" class="img-fluid rounded-4 mb-3">
+                    <h3 class="text-center h4 fw-bold">Jane Doe</h3>
+                    <p class="text-center fw-bold">Chief Financial Officer</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="d-flex flex-column">
+                    <img src="./images/021.jpg" alt="" class="img-fluid rounded-4 mb-3">
+                    <h3 class="text-center h4 fw-bold">Michael Brown</h3>
+                    <p class="text-center fw-bold">Investment Strategist</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="d-flex flex-column">
+                    <img src="./images/040.jpg" alt="" class="img-fluid rounded-4 mb-3">
+                    <h3 class="text-center h4 fw-bold">Louis Ferguson</h3>
+                    <p class="text-center fw-bold">Tax Specialist</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="d-flex flex-column">
+                    <img src="./images/030.jpg" alt="" class="img-fluid rounded-4 mb-3">
+                    <h3 class="text-center h4 fw-bold">Amanda Reed</h3>
+                    <p class="text-center fw-bold">Chief Financial Officer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--La section des logos-->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <h1 class="text-dark fw-bold display-5 mb-4">Trusted by industry <br> leaders</h1>
+                <p class="followers m-0 ">3000+ Users rated us <strong class="text-warning">4.85</strong> out of 5.</p>
+                <div class=" container d-flex">
+                    <img src="./images/07.jpg" alt="" class="img-fluid image-arrondi">
+                    <img src="./images/02.jpg" alt="" class="img-fluid image-arrondi">
+                    <img src="./images/03.jpg" alt="" class="img-fluid image-arrondi">
+                    <img src="./images/08.jpg" alt="" class="img-fluid image-arrondi">
+                    <img src="./images/01.jpg" alt="" class="img-fluid image-arrondi">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <table class="">
+                    <tr>
+                        <td>
+                            <img src="./images/01.svg" alt="" class="w-75 mb-5">
+                        </td>
+                        <td>
+                            <img src="./images/07.svg" alt="" class="w-75 mb-5">
+                        </td>
+                        <td>
+                            <img src="./images/08.svg" alt="" class="w-75 mb-5">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="./images/02.svg" alt="" class="w-75 mb-5">
+                        </td>
+                        <td>
+                            <img src="./images/03.svg" alt="" class="w-75 mb-5">
+                        </td>
+                        <td>
+                            <img src="./images/04.svg" alt="" class="w-75 mb-5">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="./images/05.svg" alt="" class="w-75 mb-5">
+                        </td>
+                        <td>
+                            <img src="./images/11.svg" alt="" class="w-75 mb-5">
+                        </td>
+                        <td>
+                            <img src="./images/10.svg" alt="" class="w-75 mb-5">
+                        </td>
+                        <td>
+                            <img src="./images/06.svg" alt="" class="w-75 mb-5">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="./images/09.svg" alt="" class="w-75 mb-5">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer-->
+<section class="footer py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <img src="./images/logo-light.svg" alt="" class=" w-25 mb-4">
+                <p class="text-secondary fw-bold">A Bootstrap theme that's both stylish and functional, perfect for any type of technology or corporate website.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 ">
+              <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-column me-5">
+                    <h2 class="link-active mb-5">Company</h2>
+                    <p class="fw-bold link-a">About us</p>
+                    <p class="fw-bold link-a">Contact us</p>
+                    <p class="fw-bold link-a">Career <span class="badge text-bg-primary">2 jobs</span></p>
+                    <p class="fw-bold link-a">Career detail</p>
+                    <p class="fw-bold link-a">Become a <br> partner</p>
+                    <p class="fw-bold link-a">Services</p>
+                </div>
+                  <div class="d-flex flex-column me-4">
+                    <h2 class="link-active mb-5">Ressources</h2>
+                    <p class="fw-bold link-a">Case studies</p>
+                    <p class="fw-bold link-a">Pricing <span class="badge text-bg-success">New</span></p>
+                    <p class="fw-bold link-a">Blogs</p>
+                    <p class="fw-bold link-a">Blog detail</p>
+                    <p class="fw-bold d-flex flex-column link-a">Success stories <i class="bi bi-box-arrow-up-right small ms-2"></i></p>
+                </div>
+                  <div class="d-flex flex-column">
+                    <h2 class="link-active mb-5">Download our app</h2>
+                    <p class="h6  text-secondary">Get instant access to exclusive features for FREE!</p>
+                    <div class="d-flex mb-5">
+                        <img src="./images/google-play.svg" alt="" class="img-fluid w-50 me-2">
+                        <img src="./images/app-store.svg" alt="" class="img-fluid w-50">
+                    </div>
+                     <p class="h6 text-white">Follow on:</p>
+                     <div class="d-flex">
+                        <i class="bi bi-facebook lh-base icon-follow1 me-3"></i>
+                        <i class="bi bi-instagram lh-base me-3 icon-follow2"></i>
+                        <i class="bi bi-twitter-x lh-base me-3 icon-follow3"></i>
+                        <i class="bi bi-linkedin lh-base me-3 bg-info icon-follow4"></i>
+                     </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-5">
+            <div class="col-lg-9">
+                <p class="text-secondary">Copyrights ©2024 Folio. Build by <a href="" class="text-secondary">Webestica</a>.</p>
+            </div>
+
+            <div class="col-lg-3">
+                <span class="text-secondary me-2">Privacy policy</span>
+                <span class="text-secondary">Terms & conditions</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+
+
+
+</body>
+</html>
