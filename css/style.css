@@ -296,8 +296,8 @@ label{
 }
 
 .fleche-a{
-    color: #828282;
-    transition: all .5s ease;
+    color: var(--bs-body-color);
+    transition: opacity .5s ease;
     font-weight: 400;
 }
 
@@ -327,7 +327,7 @@ label{
     left: 0;
     width: 0%;
     height: 3px;
-    background-color: #5c4bff;
+    background-color: var(--bs-indigo);
     transition: width .8s ease;
 }
 
